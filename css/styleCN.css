@@ -1,0 +1,80 @@
+html,body{
+    height: 52.6em;
+}
+h1{
+    font-family: 'Maiden Orange', cursive;
+    font-size: 5em !important;
+}
+
+div#mainContainer{
+    padding: 5%;
+    z-index: 1001 !important;
+}
+
+.backGroundLayer{
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+}
+.lead{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7em
+}
+.signOutBtn{
+    /* position: absolute; */
+    margin: auto;
+    font-family: 'Merriweather Sans', sans-serif !important;
+}
+.slider{
+    z-index: -1;
+    height: inherit !important;
+}
+
+
+div#loginContainer{
+    padding: 7%;
+}
+h1#auth{
+    font-family: 'Bitter', serif;
+color: rgb(255, 250, 250)
+}
+#loginBox{
+    border-radius: 5px;
+    padding: 4% 0%;
+    /* background-color:rgb(243, 239, 239) */
+}
+.areaLogin{
+    overflow: hidden;
+}
+#loginForm,#signupForm{
+    padding: 2%;
+    
+}
+#Email,#PWD{
+    border: 2px solid rgb(127, 127, 238) !important;
+    border-radius: 25px;
+    font-family: 'Cabin', sans-serif;
+
+}
+#userEmail,#userPWD{
+    border: 2px solid rgb(127, 127, 238) !important;
+    border-radius: 25px;
+    font-family: 'Cabin', sans-serif;
+
+}
+#signInBtn,#signUpBtn{
+    background-color: transparent !important;
+    border: 2px solid blue !important ;
+    border-radius: 5px !important;
+}
+#loginBody{
+    background: -webkit-gradient(linear,left top, right top,from(rgb(179, 198, 238)),to(rgb(88, 88, 241)));
+    background: linear-gradient(to right,rgb(179, 198, 238),rgb(88, 88, 241))
+}
+#backToLogin{
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+}
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
